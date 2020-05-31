@@ -1,0 +1,152 @@
+1) $git --version (for checking version)
+2) $git status (for check status)
+
+3) $git init ( Make any folder a master directory)
+
+#After work in file, use this command
+
+1) $git add . (goes to stage)
+2) $git commit -m "Version1 or you can write any comment or description here"
+
+#Add username and email use these commands
+
+1) $git log ( check who login in directory) 
+
+2) $git config --global user.name "Shivam"
+3) $git config --global user.email "email here"
+
+
+# After any change in file use these commands
+
+1) $git status (check status of file)
+
+2) $git add .
+3) $git commit -m " version after change "
+4) $git log
+
+# Make online or remote repository
+
+1) Add ssh key here and you can get commands from github 
+2) Add agent command from github
+3) Add add command from github
+4) copy clip command
+
+# Pull from github
+
+1) $git pull origin master
+2) $git log
+
+
+# Scanning changes in the file or staging the file
+
+1) $git status
+
+2) $git diff filename
+
+3) $git add .
+
+4) $git commit -m "Version name"
+
+5) $git push origin master (Push all changes in the remote directory)
+
+6) $git add .
+
+7) $git diff --staged filename ( Staging the file)
+
+
+# Getting previous file 
+
+1) $git status
+
+2) $git reset filename
+
+3) $git checkout filename
+
+# For unstage any file
+
+1) $git checkout .
+
+# staging commands
+
+1) $git add -A (stages all)
+
+2) $git add . (stages new and modified files, without deleted)
+
+3) $git add -u (stages modified and deleted, without new)
+
+
+# Cloning anyone project from github
+
+1) ls -la (This command shows all the present files in directory)
+
+2) Make a new folder and named the folder 
+-> $git clone (SSH CODE)
+
+#Ignoring files in Git and ignore big files and write extensions and folder name or any file name in the .gitignore file
+
+1) $touch .gitignore ( this make a blank file )
+
+2) notepad .gitignore (open file)
+ 
+#Imp:-  Branching
+# Make another branch and not affect the real data or file
+
+1) $git branch
+
+2) $git branch login-system (branchname)
+
+3) $git branch (for verify)
+
+4) $git checkout login-system (this commands helps to switch in new branch)
+
+# After Work or changes in file
+
+5) $git status
+6) $git add .
+7) $git commit -m "description"
+8) $git push origin login-system (give branch name not master)
+
+# Merge This is master branch'
+
+1) $git branch
+
+2) $git checkout master (comes in master directory)
+
+3) $git merge login-system
+
+4) $git push -u origin master
+
+
+# Deleting the local branch / Remote Branch
+
+1) $git branch -d login-system (Delete branch from local PC)
+
+2) $git push origin --delete login-system (Delete branch from remote server/github)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
